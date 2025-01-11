@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body
-        className={`font-sans ${sourceSansPro.variable} ${synaxisHeader.variable} flex h-full flex-row justify-between bg-neutral-50`}
+        className={`font-sans ${sourceSansPro.variable} ${synaxisHeader.variable} h-full bg-neutral-50`}
       >
         <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>
